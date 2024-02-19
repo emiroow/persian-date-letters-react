@@ -2,9 +2,9 @@ import { CopyBlock, dracula } from "react-code-blocks";
 
 function Document() {
   return (
-    <div className="w-full flex flex-col justify-center my-16 space-y-10 max-lg:px-5">
-      <h1 className="text-center font-semibold text-3xl">How to use 👇</h1>
-      <div className="max-w-screen-xl w-full m-auto space-y-10">
+    <div className="w-full flex flex-col justify-center my-10 space-y-10 max-lg:px-5">
+      <div className="max-w-screen-xl w-full m-auto space-y-12">
+        <h1 className="text-center font-semibold text-3xl">Usage 👇</h1>
         <div>
           <h1 className="font-semibold text-3xl border-b pb-3 mb-5">
             Installation
