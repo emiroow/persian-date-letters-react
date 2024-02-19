@@ -6,9 +6,8 @@ const Hero = () => {
         <div className="max-w-md">
           <h1 className="text-5xl font-bold text-primary">Hello there</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+            persian-solar-date-to-letters is a Javascript package to convert
+            persian soalr date to persian lertters ❤️
           </p>
         </div>
         <TryConvert />

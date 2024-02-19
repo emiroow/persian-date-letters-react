@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "num2persian": "^3.2.2",
+    "persian-date-letters": "^1.0.2",
     "react": "^18.2.0",
     "react-code-blocks": "^0.1.6",
     "react-dom": "^18.2.0",

@@ -1,11 +1,12 @@
+import { ConvertDateToLetters } from "persian-date-letters";
+import { useState } from "react";
 import persian from "react-date-object/calendars/persian";
 import persian_en from "react-date-object/locales/persian_en";
 import DatePicker, { DateObject } from "react-multi-date-picker";
 import "react-multi-date-picker/styles/backgrounds/bg-dark.css";
-import index from "../hooks";
 
 function TryConvert() {
-  const { ConvertDateToLetters, value, setValue } = index();
+  const [value, setValue] = useState<string>("1402/11/25");
 
   return (
     <div className="flex w-full flex-col items-center justify-between lg:p-5 max-lg:mt-4">
